@@ -12,6 +12,8 @@ Date of finished:  06.05.2025
 ## Создание Service Account  
 Сначала я зашел в раздел IAM & Admin — Service Account и создал аккаунт с ролью Storage Admin. Это оказалось важным шагом, так как без выбранной роли возникнет ошибка доступа.  
 ![1]([./lab1/1.1 p.png](https://gekkk.co/storage/v/1e7f616741e20920402fdb3f009fd690.png))
+![1 1 p](https://github.com/user-attachments/assets/9daa76ed-2b69-410f-86c4-45ed950bfd49)
+
 
 ## Создание Compute Engine  
 Затем я приступил к созданию Compute Engine (виртуальная машина) с заданными характеристиками: Machine type e2-micro в режиме spot.  
