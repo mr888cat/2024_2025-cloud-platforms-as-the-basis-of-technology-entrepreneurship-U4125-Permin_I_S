@@ -11,7 +11,7 @@ Date of finished:  06.05.2025
 ## Ход работы  
 ## Создание Service Account  
 Сначала я зашел в раздел IAM & Admin — Service Account и создал аккаунт с ролью Storage Admin. Это оказалось важным шагом, так как без выбранной роли возникнет ошибка доступа.  
-![1](./1.1 p.png)
+![1](./lab1/1.1 p.png)
 
 ## Создание Compute Engine  
 Затем я приступил к созданию Compute Engine (виртуальная машина) с заданными характеристиками: Machine type e2-micro в режиме spot.  
